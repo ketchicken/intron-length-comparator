@@ -1,0 +1,6 @@
+__pycache__/
+*.ipynb
+*.tsv
+tsv_files/*
+*.pyc
+example_data/input/*
