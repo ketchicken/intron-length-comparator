@@ -57,9 +57,14 @@ class IntronTranscriptIDDictionary():
 
 def main():
     tid = IntronTranscriptIDDictionary()
-    tid.add_species('ortholog_dictionary/GRCh38_U12.tsv')
+    tid.add_species('ortholog_dictionary/GRCh38_U12.tsv') # CHANGE THIS PATH TO TSV FILE PATH
     #tid.add_species('FinalProject/ortholog_dictionary/GRCm38_U2.tsv')
     print(tid.get_ortholog_dict_of("HUM"))
 
 if __name__ == '__main__':
     main()
+
+#TODO: 
+# - GENE ID -> GENE ID 
+# - Lookup tables
+# - creates a python dictionary (any format)
